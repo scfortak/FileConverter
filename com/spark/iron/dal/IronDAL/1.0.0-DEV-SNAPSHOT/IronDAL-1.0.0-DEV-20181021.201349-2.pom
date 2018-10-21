@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+<!-- 	<parent>
+		<groupId>com.spark.iron</groupId>
+		<artifactId>Iron</artifactId>
+		<version>1.0.0-DEV-SNAPSHOT</version>
+		<relativePath>../IronParent</relativePath>
+	</parent> -->
+
+	<groupId>com.spark.iron.dal</groupId>
+	<artifactId>IronDAL</artifactId>
+	<version>1.0.0-DEV-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>IronDAL</name>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<dbh2.version>1.4.187</dbh2.version>
+		<github.global.server>github</github.global.server>
+	</properties>
+
+
+
+	<dependencies>
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring</artifactId> 
+			<version>2.5.6</version> </dependency> -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>5.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<artifactId>spring-context</artifactId>
+			<groupId>org.springframework</groupId>
+			<version>5.1.1.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils-core</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+		<dependency>
+			<groupId>com.spark.iron.cl</groupId>
+			<artifactId>IronCL</artifactId>
+			<version>1.0.0-DEV-SNAPSHOT</version>
+		</dependency>
+
+		<!-- H2 DB -->
+<!-- 		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>5.1.1.RELEASE</version>
+		</dependency> -->
+		
+
+	</dependencies>
+	
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.12</version>
+				<configuration>
+					<message>Maven artifacts for ${project.version}</message>
+					<noJekyll>true</noJekyll>
+					<outputDirectory>${project.build.directory}/mvn-repo
+					</outputDirectory>
+					<branch>refs/heads/master</branch>
+					<includes>
+						<include>**/*</include>
+					</includes>
+					<repositoryName>FileConverter</repositoryName>
+					<repositoryOwner>scfortak</repositoryOwner>
+					<server>github</server>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>deploy</phase>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+	<distributionManagement>
+		<repository>
+			<id>internal</id>
+			<url>file://${project.build.directory}/mvn-repo</url>
+		</repository>
+	</distributionManagement>
+	
+	
+</project>
