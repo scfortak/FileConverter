@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.spark.iron.cl</groupId>
-  <artifactId>IronCL</artifactId>
+  <groupId>com.spark.iron.remote</groupId>
+  <artifactId>IronRemote</artifactId>
   <version>1.0.0-DEV-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181022.173019</timestamp>
+      <timestamp>20181022.173402</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181022173019</lastUpdated>
+    <lastUpdated>20181022173402</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181022.173019-1</value>
-        <updated>20181022173019</updated>
+        <value>1.0.0-DEV-20181022.173402-1</value>
+        <updated>20181022173402</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181022.173019-1</value>
-        <updated>20181022173019</updated>
+        <value>1.0.0-DEV-20181022.173402-1</value>
+        <updated>20181022173402</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181022.173019-1</value>
-        <updated>20181022173019</updated>
+        <value>1.0.0-DEV-20181022.173402-1</value>
+        <updated>20181022173402</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
