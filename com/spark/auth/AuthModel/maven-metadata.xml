@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.spark.auth</groupId>
-  <artifactId>Auth</artifactId>
+  <artifactId>AuthModel</artifactId>
   <versioning>
     <versions>
       <version>1.0.0-DEV-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181027202151</lastUpdated>
+    <lastUpdated>20181027202237</lastUpdated>
   </versioning>
 </metadata>
