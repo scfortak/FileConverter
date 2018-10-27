@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.spark.iron.cl</groupId>
-  <artifactId>IronCL</artifactId>
+  <groupId>com.spark.auth</groupId>
+  <artifactId>AuthModel</artifactId>
   <version>1.0.0-DEV-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181027.195924</timestamp>
+      <timestamp>20181027.201215</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181027195924</lastUpdated>
+    <lastUpdated>20181027201215</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181027.195924-1</value>
-        <updated>20181027195924</updated>
+        <value>1.0.0-DEV-20181027.201215-1</value>
+        <updated>20181027201215</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181027.195924-1</value>
-        <updated>20181027195924</updated>
+        <value>1.0.0-DEV-20181027.201215-1</value>
+        <updated>20181027201215</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181027.195924-1</value>
-        <updated>20181027195924</updated>
+        <value>1.0.0-DEV-20181027.201215-1</value>
+        <updated>20181027201215</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

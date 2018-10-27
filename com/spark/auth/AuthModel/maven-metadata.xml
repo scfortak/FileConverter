@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.spark.iron.cl</groupId>
-  <artifactId>IronCL</artifactId>
+  <groupId>com.spark.auth</groupId>
+  <artifactId>AuthModel</artifactId>
   <versioning>
     <versions>
       <version>1.0.0-DEV-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181027195924</lastUpdated>
+    <lastUpdated>20181027201216</lastUpdated>
   </versioning>
 </metadata>
