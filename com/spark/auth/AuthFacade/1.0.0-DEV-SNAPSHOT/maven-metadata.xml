@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>com.spark.auth</groupId>
-  <artifactId>AuthModel</artifactId>
+  <artifactId>AuthFacade</artifactId>
   <version>1.0.0-DEV-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181027.201758</timestamp>
+      <timestamp>20181027.201856</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181027201758</lastUpdated>
+    <lastUpdated>20181027201856</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181027.201758-1</value>
-        <updated>20181027201758</updated>
+        <value>1.0.0-DEV-20181027.201856-1</value>
+        <updated>20181027201856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181027.201758-1</value>
-        <updated>20181027201758</updated>
+        <value>1.0.0-DEV-20181027.201856-1</value>
+        <updated>20181027201856</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181027.201758-1</value>
-        <updated>20181027201758</updated>
+        <value>1.0.0-DEV-20181027.201856-1</value>
+        <updated>20181027201856</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
