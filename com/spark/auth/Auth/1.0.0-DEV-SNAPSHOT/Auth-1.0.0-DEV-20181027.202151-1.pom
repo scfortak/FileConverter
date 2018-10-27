@@ -2,38 +2,33 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>com.spark.auth</groupId>
-		<artifactId>Auth</artifactId>
-		<version>1.0.0-DEV-SNAPSHOT</version>
-		<relativePath>../AuthParent</relativePath>
-	</parent>
-
-	<artifactId>AuthFacade</artifactId>
-	<packaging>jar</packaging>
+	<groupId>com.spark.auth</groupId>
+	<artifactId>Auth</artifactId>
 	<version>1.0.0-DEV-SNAPSHOT</version>
-	<name>Auth Facade Module</name>
+	<packaging>pom</packaging>
+	<name>Auth Project</name>
 
+<!-- 	<parent> -->
+<!-- 		<groupId>com.spark.bom</groupId> -->
+<!-- 		<artifactId>SparkSuperPom</artifactId> -->
+<!-- 		<version>1.0.0-SNAPSHOT</version> -->
+<!-- 	</parent> -->
+
+	<modules>
+		<module>../AuthServices</module>
+		<module>../AuthModel</module>
+		<module>../AuthFacade</module>
+		<module>../AuthFactory</module>
+		<module>../AuthWeb</module>
+	</modules>
+	
 	<properties>
 		<github.global.server>github</github.global.server>
 	    <maven.compiler.source>1.6</maven.compiler.source>
 	    <maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.spark.auth</groupId>
-			<artifactId>AuthModel</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>4.0.6.RELEASE</version>
-		</dependency>
-	</dependencies>
-
-  <repositories>
+	
+	<repositories>
    <repository>
      <id>sample-code-master</id>
 <url>https://raw.githubusercontent.com/scfortak/FileConverter/</url>
@@ -101,6 +96,5 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
-
-
+	
 </project>
