@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
-  <groupId>com.spark.iron.dal</groupId>
+  <groupId>com.spark.iron</groupId>
   <artifactId>IronDAL</artifactId>
   <version>1.0.0-DEV-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181021.201349</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20181031.170826</timestamp>
+      <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181021201349</lastUpdated>
+    <lastUpdated>20181031170826</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181021.201349-2</value>
-        <updated>20181021201349</updated>
+        <value>1.0.0-DEV-20181031.170826-1</value>
+        <updated>20181031170826</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181021.201349-2</value>
-        <updated>20181021201349</updated>
+        <value>1.0.0-DEV-20181031.170826-1</value>
+        <updated>20181031170826</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181021.201349-2</value>
-        <updated>20181021201349</updated>
+        <value>1.0.0-DEV-20181031.170826-1</value>
+        <updated>20181031170826</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

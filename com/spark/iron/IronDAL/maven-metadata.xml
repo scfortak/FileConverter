@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.spark.iron.dal</groupId>
+  <groupId>com.spark.iron</groupId>
   <artifactId>IronDAL</artifactId>
   <versioning>
     <versions>
       <version>1.0.0-DEV-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181021201349</lastUpdated>
+    <lastUpdated>20181031170827</lastUpdated>
   </versioning>
 </metadata>

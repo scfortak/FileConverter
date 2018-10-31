@@ -9,7 +9,7 @@
 		<relativePath>../IronParent</relativePath>
 	</parent> -->
 
-	<groupId>com.spark.iron.dal</groupId>
+	<groupId>com.spark.iron</groupId>
 	<artifactId>IronDAL</artifactId>
 	<version>1.0.0-DEV-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -20,6 +20,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<dbh2.version>1.4.187</dbh2.version>
 		<github.global.server>github</github.global.server>
+	    <maven.compiler.source>1.6</maven.compiler.source>
+	    <maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
 
 
@@ -43,9 +45,10 @@
 			<version>1.8.3</version>
 		</dependency>
 		<dependency>
-			<groupId>com.spark.iron.cl</groupId>
+			<groupId>com.spark.iron</groupId>
 			<artifactId>IronCL</artifactId>
 			<version>1.0.0-DEV-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 
 		<!-- H2 DB -->
@@ -76,7 +79,7 @@
 					<noJekyll>true</noJekyll>
 					<outputDirectory>${project.build.directory}/mvn-repo
 					</outputDirectory>
-					<branch>refs/heads/master</branch>
+					<branch>refs/heads/irondal</branch>
 					<includes>
 						<include>**/*</include>
 					</includes>
@@ -116,6 +119,17 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
+	
+	  <repositories>
+   <repository>
+     <id>sample-code-master</id>
+<url>https://raw.githubusercontent.com/scfortak/FileConverter/</url>
+     <snapshots>
+       <enabled>true</enabled>
+       <updatePolicy>always</updatePolicy>
+     </snapshots>
+   </repository>
+</repositories>
 	
 	
 </project>
