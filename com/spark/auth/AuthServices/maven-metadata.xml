@@ -4,8 +4,8 @@
   <artifactId>AuthServices</artifactId>
   <versioning>
     <versions>
-      <version>1.0.0-DEV-SNAPSHOT</version>
+      <version>1.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181101090843</lastUpdated>
+    <lastUpdated>20181101153148</lastUpdated>
   </versioning>
 </metadata>

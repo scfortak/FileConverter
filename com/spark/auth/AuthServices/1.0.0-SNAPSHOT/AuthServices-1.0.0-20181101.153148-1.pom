@@ -4,13 +4,13 @@
 
 	<artifactId>AuthServices</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-DEV-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>Auth Service Implementations</name>
 
 	<parent>
 		<groupId>com.spark.auth</groupId>
 		<artifactId>Auth</artifactId>
-		<version>1.0.0-DEV-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../AuthParent</relativePath>
 	</parent>
 
@@ -29,13 +29,13 @@
 		<dependency>
 			<groupId>com.spark.iron</groupId>
 			<artifactId>IronCL</artifactId>
-			<version>1.0.0-DEV-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.spark.iron</groupId>
 			<artifactId>IronDAL</artifactId>
-			<version>1.0.0-DEV-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
