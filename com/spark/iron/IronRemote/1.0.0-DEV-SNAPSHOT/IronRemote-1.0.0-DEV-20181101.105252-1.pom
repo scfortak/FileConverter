@@ -110,5 +110,15 @@
 		</repository>
 	</distributionManagement>
 	
-	
+	<repositories>
+	   <repository>
+	     <id>sample-code-master</id>
+		<url>https://raw.githubusercontent.com/scfortak/FileConverter/</url>
+	     <snapshots>
+	       <enabled>true</enabled>
+	       <updatePolicy>always</updatePolicy>
+	     </snapshots>
+	   </repository>
+	</repositories>
+
 </project>
