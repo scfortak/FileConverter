@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.spark.file</groupId>
-  <artifactId>FileOpsFacade</artifactId>
+  <artifactId>FileOps</artifactId>
   <versioning>
     <versions>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181101103209</lastUpdated>
+    <lastUpdated>20181101133346</lastUpdated>
   </versioning>
 </metadata>

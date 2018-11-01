@@ -1,37 +1,30 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-
-	<parent>
-		<groupId>com.spark.file</groupId>
-		<artifactId>FileOps</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../FileOpsParent</relativePath>
-	</parent>
-
-	<artifactId>FileOpsFacade</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
-	<name>FileOps Facade Module</name>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.spark.file</groupId>
+  <artifactId>FileOps</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>FileOps Project</name>
+  <description>FileOps Project</description>
+ 
+<!--   <parent> -->
+<!-- 		<groupId>com.spark.bom</groupId> -->
+<!-- 		<artifactId>SparkSuperPom</artifactId> -->
+<!-- 		<version>1.0.0-SNAPSHOT</version> -->
+<!--   </parent> -->
+  
+  <modules>
+		<module>../FileOpsServices</module>
+		<module>../FileOpsModel</module>
+		<module>../FileOpsFacade</module>
+<!-- 		<module>../FileOpsWeb</module> -->
+	</modules>
 
 	<properties>
 		<github.global.server>github</github.global.server>
     	<maven.compiler.source>1.6</maven.compiler.source>
     	<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
-
-	<dependencies>
-		<dependency>
-			<groupId>com.spark.file</groupId>
-			<artifactId>FileOpsModel</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>5.1.1.RELEASE</version>
-		</dependency>
-	</dependencies>
 
 	<build>
 		<plugins>
@@ -91,5 +84,16 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
+
+	<repositories>
+	   	<repository>
+	     <id>sample-code-master</id>
+		 <url>https://raw.githubusercontent.com/scfortak/FileConverter/</url>
+		     <snapshots>
+		       <enabled>true</enabled>
+		       <updatePolicy>always</updatePolicy>
+		     </snapshots>
+	   	</repository>
+	</repositories>
 
 </project>
