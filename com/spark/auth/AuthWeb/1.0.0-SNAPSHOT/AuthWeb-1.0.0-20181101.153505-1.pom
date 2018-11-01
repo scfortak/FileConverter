@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>com.spark.auth</groupId>
 		<artifactId>Auth</artifactId>
-		<version>1.0.0-DEV-SNAPSHOT</version>
+		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../AuthParent</relativePath>
 	</parent>
 
 	<artifactId>AuthWeb</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-DEV-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>AuthWeb Presentation Module</name>
 
 	<properties>
@@ -24,7 +24,7 @@
 		<dependency>
 			<groupId>com.spark.auth</groupId>
 			<artifactId>AuthFactory</artifactId>
-			<version>1.0.0-DEV-SNAPSHOT</version>
+			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.spark.iron</groupId>
@@ -46,7 +46,7 @@
 <!-- 		<dependency> -->
 <!-- 			<groupId>com.spark.base</groupId> -->
 <!-- 			<artifactId>KosovaBaseModel</artifactId> -->
-<!-- 			<version>1.0.0-DEV-SNAPSHOT</version> -->
+<!-- 			<version>1.0.0-SNAPSHOT</version> -->
 <!-- 		</dependency> -->
 	</dependencies>
 	
