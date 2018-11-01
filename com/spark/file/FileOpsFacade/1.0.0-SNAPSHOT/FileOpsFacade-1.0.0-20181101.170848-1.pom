@@ -11,7 +11,6 @@
 
 	<artifactId>FileOpsFacade</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
 	<name>FileOps Facade Module</name>
 
 	<properties>
