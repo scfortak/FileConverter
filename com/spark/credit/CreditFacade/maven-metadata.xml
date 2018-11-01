@@ -4,8 +4,8 @@
   <artifactId>CreditFacade</artifactId>
   <versioning>
     <versions>
-      <version>1.0.0-DEV-SNAPSHOT</version>
+      <version>1.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181101130336</lastUpdated>
+    <lastUpdated>20181101154933</lastUpdated>
   </versioning>
 </metadata>
