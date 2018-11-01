@@ -2,29 +2,29 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.spark.auth</groupId>
   <artifactId>AuthFactory</artifactId>
-  <version>1.0.0-DEV-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181101.112049</timestamp>
+      <timestamp>20181101.153324</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181101112049</lastUpdated>
+    <lastUpdated>20181101153324</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181101.112049-1</value>
-        <updated>20181101112049</updated>
+        <value>1.0.0-20181101.153324-1</value>
+        <updated>20181101153324</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181101.112049-1</value>
-        <updated>20181101112049</updated>
+        <value>1.0.0-20181101.153324-1</value>
+        <updated>20181101153324</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181101.112049-1</value>
-        <updated>20181101112049</updated>
+        <value>1.0.0-20181101.153324-1</value>
+        <updated>20181101153324</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
