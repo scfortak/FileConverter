@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.spark.credit</groupId>
+	<artifactId>Credit</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Credit Project</name>
+
+<!-- 	<parent> -->
+<!-- 		<groupId>com.spark.bom</groupId> -->
+<!-- 		<artifactId>SparkSuperPom</artifactId> -->
+<!-- 		<version>1.0.0-SNAPSHOT</version> -->
+<!-- 	</parent> -->
+
+	<modules>
+		<module>../CreditServices</module>
+		<module>../CreditModel</module>
+		<module>../CreditFacade</module>
+<!-- 		<module>../CreditWeb</module> -->
+	</modules>
+
+	<properties>
+		<github.global.server>github</github.global.server>
+    	<maven.compiler.source>1.6</maven.compiler.source>
+    	<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-deploy-plugin</artifactId>
+				<configuration>
+					<altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>com.github.github</groupId>
+				<artifactId>site-maven-plugin</artifactId>
+				<version>0.12</version>
+				<configuration>
+					<message>Maven artifacts for ${project.version}</message>
+					<noJekyll>true</noJekyll>
+					<outputDirectory>${project.build.directory}/mvn-repo
+					</outputDirectory>
+					<branch>refs/heads/creditparent</branch>
+					<includes>
+						<include>**/*</include>
+					</includes>
+					<repositoryName>FileConverter</repositoryName>
+					<repositoryOwner>scfortak</repositoryOwner>
+					<server>github</server>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>site</goal>
+						</goals>
+						<phase>deploy</phase>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+	<distributionManagement>
+		<repository>
+			<id>internal</id>
+			<url>file://${project.build.directory}/mvn-repo</url>
+		</repository>
+	</distributionManagement>
+
+
+
+</project>
