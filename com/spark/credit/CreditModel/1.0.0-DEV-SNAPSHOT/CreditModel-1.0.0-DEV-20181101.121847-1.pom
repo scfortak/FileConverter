@@ -2,16 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<artifactId>CreditModel</artifactId>
-	<packaging>jar</packaging>
-	<name>Credit Domain Model</name>
-	
 	<parent>
 		<groupId>com.spark.credit</groupId>
 		<artifactId>Credit</artifactId>
 		<version>1.0.0-DEV-SNAPSHOT</version>
 		<relativePath>../CreditParent</relativePath>
 	</parent>
+
+	<artifactId>CreditModel</artifactId>
+	<packaging>jar</packaging>
+	<name>Credit Domain Model</name>
+	<version>1.0.0-DEV-SNAPSHOT</version>
 
 	<properties>
 		<github.global.server>github</github.global.server>
@@ -86,5 +87,16 @@
 			<url>file://${project.build.directory}/mvn-repo</url>
 		</repository>
 	</distributionManagement>
+
+  <repositories>
+   <repository>
+     	<id>sample-code-master</id>
+		<url>https://raw.githubusercontent.com/scfortak/FileConverter/</url>
+	    <snapshots>
+	       <enabled>true</enabled>
+	       <updatePolicy>always</updatePolicy>
+	    </snapshots>
+   </repository>
+</repositories>
 
 </project>
