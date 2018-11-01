@@ -2,29 +2,29 @@
 <metadata modelVersion="1.1.0">
   <groupId>com.spark.iron</groupId>
   <artifactId>IronCL</artifactId>
-  <version>1.0.0-DEV-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20181031.170154</timestamp>
+      <timestamp>20181101.142712</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20181031170154</lastUpdated>
+    <lastUpdated>20181101142712</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181031.170154-1</value>
-        <updated>20181031170154</updated>
+        <value>1.0.0-20181101.142712-1</value>
+        <updated>20181101142712</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.0-DEV-20181031.170154-1</value>
-        <updated>20181031170154</updated>
+        <value>1.0.0-20181101.142712-1</value>
+        <updated>20181101142712</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.0.0-DEV-20181031.170154-1</value>
-        <updated>20181031170154</updated>
+        <value>1.0.0-20181101.142712-1</value>
+        <updated>20181101142712</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
