@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.spark.iron.remote</groupId>
+  <groupId>com.spark.iron</groupId>
   <artifactId>IronRemote</artifactId>
   <versioning>
     <versions>
       <version>1.0.0-DEV-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181022173402</lastUpdated>
+    <lastUpdated>20181101081428</lastUpdated>
   </versioning>
 </metadata>
