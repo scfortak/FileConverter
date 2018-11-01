@@ -4,8 +4,8 @@
   <artifactId>CreditModel</artifactId>
   <versioning>
     <versions>
-      <version>1.0.0-DEV-SNAPSHOT</version>
+      <version>1.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20181101122735</lastUpdated>
+    <lastUpdated>20181101154648</lastUpdated>
   </versioning>
 </metadata>
