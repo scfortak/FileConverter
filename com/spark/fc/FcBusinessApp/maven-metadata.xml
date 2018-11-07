@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.spark.fc</groupId>
+  <artifactId>FcBusinessApp</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181107125610</lastUpdated>
+  </versioning>
+</metadata>
