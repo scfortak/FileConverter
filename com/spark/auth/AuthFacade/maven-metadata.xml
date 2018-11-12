@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.spark.auth</groupId>
+  <artifactId>AuthFacade</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181112090506</lastUpdated>
+  </versioning>
+</metadata>
